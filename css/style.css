@@ -1,0 +1,53 @@
+/* CLASS UTILITY */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+h1{
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+}
+
+img{
+    width: 100%;
+}
+
+
+.box{
+    height: 100vh;
+    position: relative;
+}
+
+.content-img{
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* END CLASS UTILITY */
+
+.box1{
+    background-color: red;
+    color: yellow;
+}
+
+.box2{
+    background-color: green;
+    color: yellow;
+}
+
+.box3{
+    background-color: yellow;
+    color: green;
+}
