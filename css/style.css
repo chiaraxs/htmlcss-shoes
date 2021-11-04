@@ -38,6 +38,10 @@ img{
 
 /* END CLASS UTILITY */
 
+.navigation{
+    position: fixed;
+    z-index: 1001;
+}
 
 nav ul {
     list-style: none;
